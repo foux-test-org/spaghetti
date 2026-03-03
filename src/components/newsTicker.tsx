@@ -1,5 +1,4 @@
 // camelCase filename, inline styles — this is intentional chaos
-import { useState } from "react"; // unused import
 
 const HEADLINES = [
   "BREAKING: Scientists Confirm Spaghetti Existed Before the Big Bang",

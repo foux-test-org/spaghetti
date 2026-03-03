@@ -12,8 +12,6 @@ export default function recipecard({ recipe }: { recipe: Recipe }) {
   // state for countdown timer (only used by speed spaghetti recipe)
   const [countdown, setCountdown] = useState(300);
   const [timer_running, set_timer_running] = useState(false);
-  // unused variable
-  const MAX_RECIPES_PER_PAGE = 10;
 
   // handle the countdown timer for competitive speed spaghetti
   useEffect(() => {
