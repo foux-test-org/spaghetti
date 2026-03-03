@@ -1,0 +1,143 @@
+export interface Recipe {
+  id: number;
+  title: string;
+  description: string;
+  difficulty: number;
+  servingSize: string;
+  ingredients: string[];
+  steps: string[];
+}
+
+export const recipes: Recipe[] = [
+  {
+    id: 1,
+    title: "Classic Spaghetti",
+    description: "The definitive spaghetti recipe, perfected over millennia by the greatest minds in human history. Do not deviate from these instructions.",
+    difficulty: 2,
+    servingSize: "4 reverent portions",
+    ingredients: [
+      "400g spaghetti (Pasticus magnificus only)",
+      "4 liters of water (filtered, room temperature, blessed)",
+      "28g sea salt (Mediterranean, harvested under a full moon)",
+      "800ml San Marzano tomato sauce",
+      "3 cloves garlic, minced at exactly 2mm intervals",
+      "Fresh basil (precisely 7 leaves)",
+      "Extra virgin olive oil (first press, cold extracted)",
+    ],
+    steps: [
+      "Bring water to a rolling boil at exactly 100°C (not 99°C, not 101°C).",
+      "Add salt. Pause for 3 seconds of reflection.",
+      "Insert spaghetti vertically. Allow it to soften naturally. DO NOT BREAK THE SPAGHETTI.",
+      "Boil for exactly 8 minutes and 23 seconds. Not 8:22. Not 8:24.",
+      "While pasta cooks, heat olive oil over medium heat (176°C ± 2°C).",
+      "Add garlic. Sauté for 47 seconds until fragrant.",
+      "Add tomato sauce. Simmer for 12 minutes.",
+      "Drain pasta, reserving exactly 120ml of pasta water.",
+      "Combine pasta with sauce. Add pasta water in 30ml increments.",
+      "Garnish with the 7 basil leaves in a fibonacci spiral pattern.",
+      "Serve immediately. Any delay beyond 45 seconds is considered a felony in Italy.",
+    ],
+  },
+  {
+    id: 2,
+    title: "Emergency Spaghetti",
+    description: "For when the spaghetti craving strikes and you have 10 minutes to live (figuratively). No time for precision. Only survival.",
+    difficulty: 1,
+    servingSize: "1 desperate serving",
+    ingredients: [
+      "Whatever spaghetti you can find",
+      "Water (tap is fine, we're not judging)",
+      "Salt (any kind, even table salt, we're past caring)",
+      "Butter or olive oil",
+      "Parmesan from the green can (we said emergency)",
+    ],
+    steps: [
+      "Step 1: Panic.",
+      "Step 2: Boil water. Use the biggest pot you have.",
+      "Step 3: You should have started boiling water in Step 1.",
+      "Step 4: Throw spaghetti in. Don't measure it. Measurement is a luxury.",
+      "Step 5: Cook until it feels right. Trust your instincts.",
+      "Step 6: Drain. Toss with butter.",
+      "Step 7: Apply parmesan directly. Do not look at the nutrition label.",
+      "Step 8: Eat standing over the sink. You've earned this.",
+    ],
+  },
+  {
+    id: 3,
+    title: "Spaghetti for One",
+    description: "A recipe for the solitary noodle enthusiast. Best enjoyed in comfortable silence, accompanied only by the sound of your own chewing and the weight of existential contemplation.",
+    difficulty: 1,
+    servingSize: "1 lonely plate",
+    ingredients: [
+      "100g spaghetti (just enough to feel something)",
+      "A modest amount of water",
+      "Salt (tears are also sodium-based, if needed)",
+      "Your sauce of choice",
+      "A single candle (optional but recommended for ambiance)",
+      "Background music (suggestion: anything by Adele)",
+    ],
+    steps: [
+      "Set the table for one. Acknowledge the empty chair across from you.",
+      "Boil water. Use this time to reflect on your life choices.",
+      "Cook spaghetti. 8-10 minutes, or however long your playlist lasts.",
+      "Prepare sauce. Any sauce. You deserve it.",
+      "Plate beautifully. You're worth the effort.",
+      "Sit down. Take a breath. This is your moment.",
+      "Eat slowly. Savor each bite. Nobody is rushing you.",
+      "Wash the single dish. Tomorrow is another day.",
+    ],
+  },
+  {
+    id: 4,
+    title: "Theoretical Spaghetti",
+    description: "This recipe exists only in concept. No one has ever successfully prepared it. Several physicists have tried. The results were... inconclusive.",
+    difficulty: 5,
+    servingSize: "∞ (hypothetical) portions",
+    ingredients: [
+      "500g spaghetti from a parallel universe",
+      "Dark matter (3 tablespoons, compressed)",
+      "Antimatter sauce (handle with extreme caution)",
+      "Higgs boson seasoning (to taste)",
+      "Time crystals (for garnish)",
+      "A black hole (small, for reduction)",
+      "The concept of flavor itself",
+    ],
+    steps: [
+      "Acquire ingredients. Note: most do not exist in our dimension.",
+      "Create a controlled wormhole in your kitchen. Set oven to 10^32 Kelvin.",
+      "Thread spaghetti through the fabric of spacetime.",
+      "Apply dark matter. It should be invisible, so you'll have to trust yourself.",
+      "Cook for exactly 0 seconds and also infinity simultaneously.",
+      "The spaghetti exists in a superposition of cooked and uncooked. Do not observe it.",
+      "Serve on a plate made of compressed neutron star material.",
+      "Eat? The concept of eating is relative at this point.",
+      "If you've reached this step, please contact CERN immediately.",
+    ],
+  },
+  {
+    id: 5,
+    title: "Competitive Speed Spaghetti",
+    description: "For the adrenaline junkie who treats cooking like an extreme sport. Your personal best is your only enemy. The clock is always ticking.",
+    difficulty: 4,
+    servingSize: "1 victory serving",
+    ingredients: [
+      "200g thin spaghetti (for faster cook time)",
+      "Pre-boiled water (cheating? No. Strategy.)",
+      "Pre-made sauce (warmed in microwave, 30 sec)",
+      "Pre-grated cheese",
+      "A stopwatch",
+      "An unshakeable will to win",
+    ],
+    steps: [
+      "START THE CLOCK. Every second counts.",
+      "Water should already be boiling. If it's not, you've already lost.",
+      "THROW the spaghetti in. No gentle placement. This is war.",
+      "While pasta cooks, open sauce. Microwave 30 seconds. GO GO GO.",
+      "At the 4 minute mark, test pasta. If you're using thin spaghetti, it might be done.",
+      "DRAIN. Don't wait for all the water. Time is more valuable than dryness.",
+      "Sauce. Cheese. Plate. DONE.",
+      "STOP THE CLOCK. Record your time. Beat it next time.",
+      "Current world record: 4 minutes 37 seconds (unverified).",
+    ],
+  },
+];

@@ -1,0 +1,140 @@
+.contact-form-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 40px 24px;
+}
+
+.contact-form-title {
+  font-size: 1.75rem;
+  font-weight: 700;
+  color: #292524;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.contact-form-subtitle {
+  color: #78716c;
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.contact-field {
+  margin-bottom: 20px;
+}
+
+.contact-label {
+  display: block;
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #44403c;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.contact-input,
+.contact-textarea {
+  width: 100%;
+  padding: 10px 14px;
+  border: 2px solid #d6d3d1;
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #292524;
+  background: white;
+  transition: border-color 0.2s;
+  font-family: inherit;
+}
+
+.contact-input:focus,
+.contact-textarea:focus {
+  border-color: #f59e0b;
+  outline: none;
+}
+
+.contact-textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+.contact-radio-group {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.contact-radio-label {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  color: #44403c;
+  font-size: 0.95rem;
+}
+
+.contact-submit {
+  width: 100%;
+  padding: 14px;
+  background-color: #f59e0b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-top: 12px;
+}
+
+.contact-submit:hover {
+  background-color: #d97706;
+}
+
+.contact-modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+.contact-modal {
+  background: white;
+  border-radius: 16px;
+  padding: 40px;
+  max-width: 400px;
+  text-align: center;
+}
+
+.contact-modal h3 {
+  font-size: 1.25rem;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #292524;
+}
+
+.contact-modal p {
+  color: #57534e;
+  margin-bottom: 24px;
+  line-height: 1.6;
+}
+
+.contact-modal button {
+  padding: 10px 24px;
+  background: #f59e0b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contact-error {
+  color: #ef4444;
+  font-size: 0.8rem;
+  margin-top: 4px;
+}

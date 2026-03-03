@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+  background-color: #fffbeb;
+  color: #292524;
+}
+
+/* random global class that only one component uses */
+.fancy-border {
+  border: 3px solid #f59e0b;
+  border-radius: 12px;
+}
+
+/* another random global class */
+.section-padding {
+  padding: 60px 20px;
+}
+
+a {
+  text-decoration: none;
+}
